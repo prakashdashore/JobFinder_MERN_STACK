@@ -45,6 +45,10 @@ app.use(cookieparser())
 
 
 //routes
+app.get('/' ,(req,res)=>{
+  res.json({message : "HELLOW WORLD !!"})
+})
+
 app.use("/api/v1/user", require("./routes/index"));
 app.use("/api/v1/user", require("./routes/resume"));
 app.use("/api/v1/user",require("./routes/employe"));

@@ -9,6 +9,7 @@
     "dev": "nodemon app.js",
     "build": "webpack --mode production"
   },
+  
   "keywords": [],
   "author": "prashhh",
   "license": "ISC",

@@ -1,0 +1,7 @@
+{
+
+    "version" : 2,
+    "buileds" : [{"src" : "./app.js" , "use" : "@vercel/node"}],
+    "router" : [{"src" : "/(.*)" , "dest" : "/"}]
+    
+}
