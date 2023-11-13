@@ -1,3 +1,7 @@
-/node_modules
-/.env
 
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/.env
+/.packege-lock.json
